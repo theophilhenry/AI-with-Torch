@@ -19,3 +19,6 @@ tensorboard
 flask
 python-dotenv
 requests
+
+ultralytics
+opencv-python

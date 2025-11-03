@@ -8,3 +8,5 @@ pytorch-basic/runs/
 
 pytorch-basic/flask-pytorch/*.pth
 pytorch-basic/flask-pytorch/__pycache__/
+
+.env

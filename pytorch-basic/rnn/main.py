@@ -15,7 +15,7 @@ class RNN(nn.Module):
     self.softmax = nn.LogSoftmax(dim=1)
   
   def forward(self, input_tensor, hidden_tensor):
-    input_tensor = input_tensor.unsqueeze(0)
+    input_tensor = input_tensor.unsqueeze(0) # Say that it's 1 batch
     combined = torch.cat((input_tensor, hidden_tensor), 1)
     
     hidden = self.i2h(combined)

@@ -7,6 +7,7 @@ w, h, fps = (int(cap.get(x)) for x in (cv2.CAP_PROP_FRAME_WIDTH, cv2.CAP_PROP_FR
 counter = solutions.RegionCounter(
     show=True,
     region={
+      # "region-01": [(0, 0), (0, h/2), (w/2, h/2), (w/2, 0)], 
       "region-01": [(0, 0), (0, h/2), (w/2, h/2), (w/2, 0)], 
     },
     model="yolo11n.pt",

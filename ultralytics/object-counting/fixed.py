@@ -16,8 +16,8 @@ h = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 region_points = [
     (int(w * 0.45), 0),
     (int(w * 0.45), int(h)),
-    (int(w * 0.55), int(h)),
-    (int(w * 0.55), int(0)),
+    # (int(w * 0.55), int(h)),
+    # (int(w * 0.55), int(0)),
 ]
 # region_points = [(20, 400), (1080, 400), (1080, 360), (20, 360)]
 counter = solutions.ObjectCounter(

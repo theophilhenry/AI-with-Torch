@@ -10,3 +10,6 @@ pytorch-basic/flask-pytorch/*.pth
 pytorch-basic/flask-pytorch/__pycache__/
 
 .env
+
+ultralytics/end-to-end-training/runs/
+ultralytics/end-to-end-training/data*

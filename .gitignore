@@ -13,3 +13,5 @@ pytorch-basic/flask-pytorch/__pycache__/
 
 ultralytics/end-to-end-training/runs/
 ultralytics/end-to-end-training/data*
+
+.python-version

@@ -1,29 +1,28 @@
 # Core PyTorch packages
 # Install from PyPI (CPU version) or use specific CUDA version:
 # For CUDA 11.8: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
-# torch
-# torchvision
+torch
+torchvision
 
 # Data manipulation and visualization
-numpy
-pandas
-matplotlib
-seaborn
+# numpy
+# pandas
+# matplotlib
+# seaborn
 
 # Image processing
-Pillow
-opencv-python
-
-scikit-learn
-tensorboard
-
-flask
-python-dotenv
-requests
-
-ultralytics
+# Pillow
 # opencv-python
 
-jupyter
-notebook
-ipykernel
+# scikit-learn
+# tensorboard
+
+# flask
+# python-dotenv
+# requests
+
+# ultralytics
+# opencv-python
+
+# jupyter
+# ipykernel
